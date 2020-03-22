@@ -21,6 +21,7 @@ Clone and build this repository:
 
 ```bash
 git clone --recurse-submodules https://github.com/goromal/svo.git
+cd svo
 mkdir build && cd build
 cmake ..
 make

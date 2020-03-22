@@ -1,0 +1,6 @@
+[submodule "lib/vikit_common"]
+	path = lib/vikit_common
+	url = https://github.com/goromal/vikit_common.git
+[submodule "lib/fast"]
+	path = lib/fast
+	url = https://github.com/uzh-rpg/fast.git

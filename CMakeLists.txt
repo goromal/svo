@@ -81,7 +81,9 @@ LIST(APPEND SOURCEFILES
   src/feature_detection.cpp
   src/depth_filter.cpp
   src/config.cpp
-  src/sparse_img_align.cpp)
+  src/sparse_img_align.cpp
+  src/monocular_svo.cpp
+)
 
 # Create svo library
 ADD_LIBRARY(svo SHARED ${SOURCEFILES})

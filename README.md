@@ -1,7 +1,7 @@
 SVO
 ===
 
-This code implements a semi-direct monocular visual odometry pipeline, as described in the video and paper below. Adapted for portability from ETH Zurich's ROS-enabled pipeline at https://github.com/uzh-rpg/rpg_svo. Python wrappers implemented [TODO].
+This code implements a semi-direct monocular visual odometry pipeline, as described in the video and paper below. Adapted for portability from ETH Zurich's ROS-enabled pipeline at https://github.com/uzh-rpg/rpg_svo. Python wrappers implemented [here](https://github.com/goromal/svo-python).
 
 Video: http://youtu.be/2YnIMfw6bJY
 

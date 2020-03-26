@@ -14,6 +14,7 @@ namespace svo {
 class MonocularSVO
 {
 public:
+    EIGEN_MAKE_ALIGNED_OPERATOR_NEW
     MonocularSVO();
     bool initialize(const std::string &cam_model, const std::vector<double> &cam_params);
     void update(const cv::Mat &img, const double &t);

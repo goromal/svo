@@ -6,8 +6,8 @@ MonocularSVO::MonocularSVO() : initialized_(false), vo_(NULL), cam_(NULL) {}
 
 MonocularSVO::~MonocularSVO()
 {
-    delete vo_;
-    delete cam_;
+//    delete vo_;
+//    delete cam_;
 }
 
 bool MonocularSVO::initialize(const std::string &cam_model, const std::vector<double> &cam_params)

@@ -29,10 +29,11 @@ private:
 std::ostream& operator<< (std::ostream& os, const MonocularSVO& msvo)
 {
     if (msvo.initialized_)
-        os << "Initialized ";
+    {
+        os << "Initialized monocular SVO solver with image (w=" << msvo.cam_->width() << ", h=" << msvo.cam_->height() << ")";
+    }
     else
-        os << "Uninitialized ";
-    os << "monocular SVO solver with image (w=" << msvo.cam_->width() << ", h=" << msvo.cam_->height() << ")";
+        os << "Uninitialized monocular SVO solver";
 }
 
 } // end namespace svo
